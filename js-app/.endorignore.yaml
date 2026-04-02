@@ -1,0 +1,7 @@
+version: 1.0.0
+ignore:
+  - id: endorignore-1
+    vuln_id: CVE-2026-4800
+    dependency_name: lodash
+    reason: risk-accepted
+    comments: "Ignoring lodash Code Injection via _.template imports key names (CVE-2026-4800)"
