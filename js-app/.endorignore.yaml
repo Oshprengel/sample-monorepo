@@ -5,3 +5,8 @@ ignore:
     dependency_name: lodash
     reason: risk-accepted
     comments: "Ignoring lodash Code Injection via _.template imports key names (CVE-2026-4800)"
+  - id: endorignore-2
+    vuln_id: GHSA-xxjr-mmjv-4gpg
+    dependency_name: lodash
+    reason: risk-accepted
+    comments: "Ignoring lodash prototype pollution in _.unset and _.omit"
