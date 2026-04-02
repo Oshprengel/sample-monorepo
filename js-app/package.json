@@ -1,0 +1,13 @@
+{
+  "name": "js-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app in a monorepo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "lodash": "4.17.21"
+  }
+}
